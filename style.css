@@ -1,0 +1,144 @@
+/* =========================
+   全体
+========================= */
+body {
+  font-family: "Noto Sans JP", "Segoe UI", "Meiryo", sans-serif;
+  background: linear-gradient(180deg, #eef2f7, #ffffff);
+  margin: 0;
+  color: #333;
+}
+
+/* =========================
+   ヘッダー
+========================= */
+header {
+  text-align: center;
+  padding: 50px 20px;
+  background: linear-gradient(135deg, #74b9ff, #0984e3);
+  color: white;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+}
+
+.subtitle {
+  margin-top: 10px;
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+/* =========================
+   メイン
+========================= */
+main {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+/* =========================
+   記事カード（トップ）
+========================= */
+.article {
+  background: #ffffff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  transition: 0.3s;
+}
+
+.article:hover {
+  transform: translateY(-5px);
+}
+
+.article h3 {
+  margin: 0 0 10px;
+}
+
+.article a {
+  text-decoration: none;
+  color: #222;
+  font-size: 18px;
+}
+
+.article a:hover {
+  color: #0077cc;
+}
+
+/* =========================
+   ブログ本文
+========================= */
+.blog h1 {
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+
+.date {
+  display: inline-block;
+  background: #0077cc;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+/* 画像 */
+.main-img {
+  width: 100%;
+  border-radius: 15px;
+  margin: 20px 0;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* =========================
+   歩数エリア
+========================= */
+.walk-data {
+  background: linear-gradient(135deg, #dff6ff, #bde0fe);
+  padding: 20px;
+  border-radius: 15px;
+  margin: 25px 0;
+  text-align: center;
+}
+
+.steps {
+  font-size: 36px;
+  font-weight: bold;
+  color: #0077cc;
+}
+
+/* =========================
+   見出し
+========================= */
+.blog h2 {
+  margin-top: 30px;
+  border-left: 5px solid #0077cc;
+  padding-left: 10px;
+}
+
+/* =========================
+   文章
+========================= */
+.blog p {
+  line-height: 1.8;
+}
+
+/* =========================
+   フッター
+========================= */
+footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+  background: #f1f1f1;
+  font-size: 14px;
+}
