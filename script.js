@@ -1,9 +1,12 @@
 document.addEventListener("DOMContentLoaded", () => {
   // 各記事の歩数（ここに追加していく）
   const steps = [
-    8532,
-    12000,
-    6951
+    26121,
+    6951,
+    20000,
+    6300,
+    6800,
+
   ];
 
   // 合計
